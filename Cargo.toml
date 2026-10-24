@@ -1,0 +1,11 @@
+[package]
+name = "muc"
+version = "0.1.0"
+edition = "2024"
+description = "Compiler for the Mu programming language"
+
+[dependencies]
+
+[[bin]]
+name = "muc"
+path = "src/main.rs"
